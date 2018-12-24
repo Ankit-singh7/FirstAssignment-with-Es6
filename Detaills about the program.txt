@@ -1,0 +1,49 @@
+#pokemonSearcg.js-
+1) I have added the jason in my javascript and assigned it inside the variable "PokemonInformation".
+2)I have created a function "InfoAboutPokemon()" which takes the name of the pokemon as attribute.
+3)I created three variable inside the function InfoAboutPokemon.
+-var count
+-var pokemonFound=false
+-var pokArray=PokemonInformation.pokemon
+4)Then i added a FOR IN loop for the array pokemon.
+5)Inside that loop i added a if condition which checks that whether the name pf the pokemon which we passed in the function as 
+as parameter matches any of the name inside any of the object in the array pokemon.
+6)If the name is found then set pokemonFound=true else set PokemonFound=false.
+7)If pokemonFound=true then we show the details else show in the akert box that "no such pokemon found!" .
+8)Now i assigned a prompt box inside a variable pokemonName which will ask the user to give the name of the pokemon they want to search.
+9)Now i called the function.
+
+
+
+
+
+#weaknessSearch.js-
+1)I have added the jason in javascript and assigned it inside the variable "PokemonInformation".
+2)I have created a function "findingPokemonHavingSameWeakness()" which takes the weakness of the pokemon as attribute.
+3)I created two variables the function findingPokemonHavingSameWeakness.
+-var indexCount
+-var pokArray=PokemonInformation.pokemon
+4)Then i added a FOR IN loop for the array pokemon.
+5)Inside the loop i added a variable and assign the value pokArray[indexCount].weaknesses
+6)then i added a conditional statement "if" to see wether the object inside pokemon contains
+weakness array or not.
+7)If the if condition is true then for that i added a nested if which check whether the weakness array contain the
+ name of the weakness which is passed as parameter in the function.
+8)If the weakness is same then in the alert box i printed the name of the pokemon having same weakness.
+
+
+
+
+#pokemonNextEvolution.js
+1)I have added the jason in javascript and assigned it inside the variable "PokemonInformation".
+2)I have created a function "namesInNextEvolutionField()" which takes the name of pokemon who is in the evolution field of other pokemon.
+3)I created two variables the function namesInNextEvolutionField.
+-var indexCount
+-var pokArray=PokemonInformation.pokemon
+4)Then i added a FOR IN loop for the array pokemon.
+5)Inside the loop i added a variable and assign the value pokArray[indexCount].next_evolution.
+6)then i added a conditional statement "if" to see wether the object inside pokemon contains
+nextEvolutionArray array or not.
+7)If the if condition is true then for that i added a nested if which check whether the nextEvolutionArray contain 
+the name of the pokemon which is passed as parameter in the function.
+8)If the name is same then in the alert box i printed the name of the pokemon is present in the nextEvolutionArray .
